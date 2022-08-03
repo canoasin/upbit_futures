@@ -1,0 +1,150 @@
+
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+body {
+  background-color: #0c0e11;
+  letter-spacing: -0.5;
+  color: #eaecef;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
+.inner {
+  width: 1150px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav > .inner {
+  width: 1500px;
+  height: 74px;
+}
+
+.btn {
+  background-color: #fcd535;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  padding: 10px 24px;
+  border-radius: 4px;
+  transition: .4s;
+  box-sizing: border-box;
+  border: none;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.container {
+  background-color: #181a1f;
+}
+
+.container-inner {
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0px;
+  margin: 0 auto;
+}
+
+.main-sign {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.single-ticker {
+  /* display: flex; */
+  width: 1300px;
+  justify-content: center;
+  margin: 18px auto 48px auto;
+}
+
+#tradingview_widget_wrapper div:nth-child(2) {
+  display: none;
+}
+
+.trade-wrap {
+  max-width: 1300px;
+  padding: 80px 0px;
+  margin: 0 auto
+}

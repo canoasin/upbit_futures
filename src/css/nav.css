@@ -1,0 +1,93 @@
+.nav {
+  height: 74px;
+  background-color: #181a1f;  
+}
+
+.nav-logo {
+  font-family: 'KaushanScript-Regular';
+  font-size: 34px;
+  color: #efb90b;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  cursor: pointer
+}
+
+.nav-items {
+  font-size: 16px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  bottom: 0;
+  left: 262px;
+  z-index: 1;
+}
+
+.nav-items .item .item__name {
+  padding: 22px 38px;
+  cursor: pointer;
+  color: #EAECEF;
+  text-decoration: none;
+}
+
+.nav-items .item .item__name:hover {
+  color: #f0b90b;
+}
+
+.nav-items .item .item__contents {
+  width: 100%;
+  position: absolute;
+  background-color: #1e2329  ;
+  top: 64px;
+  display: none;
+}
+
+.nav-items .item .item__contents > ul > li {
+  padding: 36px 20px;
+}
+
+.nav-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-btn .login {
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  padding: 10px 0px;
+  margin-right: 32px;
+  background-color: #181a1f;
+  border: none;
+}
+
+.nav-btn .login:hover {
+  color: #f0b90b;
+}
+
+.nav-btn .sign {
+  background-color: #fcd535;
+  font-size: 16px;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  padding: 10px 24px;
+  border-radius: 4px;
+  transition: .4s;
+  box-sizing: border-box;
+  border: none;
+}
+
+.nav-btn .sign:hover {
+  opacity: 0.8;
+}
