@@ -8,6 +8,7 @@
   height: 19px;
   display: inline-block;
   margin-top: 21px;
+  cursor: pointer;
 }
 
 .nav-logo a{
