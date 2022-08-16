@@ -1,20 +1,21 @@
 .nav {
-  height: 74px;
-  background-color: #181a1f;  
+  height: 60px;
+  background-color: #093687;  
 }
 
 .nav-logo {
-  font-family: 'KaushanScript-Regular';
-  font-size: 34px;
-  color: #efb90b;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  margin: auto;
-  cursor: pointer
+  width: 79px;
+  height: 19px;
+  display: inline-block;
+  margin-top: 21px;
+}
+
+.nav-logo a{
+  background: url('https://cdn.upbit.com/upbit-web/images/logo_upbit_sub.f7f9753.svg');
+  width: 74px;
+  height: 17px;
+  text-indent: -1000em;
+  display: inline-block;
 }
 
 .nav-items {
@@ -24,19 +25,19 @@
   align-items: center;
   top: 0;
   bottom: 0;
-  left: 262px;
+  left: 140px;
   z-index: 1;
 }
 
 .nav-items .item .item__name {
-  padding: 22px 38px;
+  padding: 22px 20px;
   cursor: pointer;
-  color: #EAECEF;
+  color: #A5AFCA99;
   text-decoration: none;
 }
 
-.nav-items .item .item__name:hover {
-  color: #f0b90b;
+.nav-items .item .item__name.active {
+  color: #FFFFFF;
 }
 
 .nav-items .item .item__contents {
@@ -67,7 +68,7 @@
   display: block;
   padding: 10px 0px;
   margin-right: 32px;
-  background-color: #181a1f;
+  background-color: transparent;
   border: none;
 }
 

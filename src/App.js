@@ -4,7 +4,6 @@ import { Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar.js";
 
 /* Pages */
-import Main from "./pages/Main.js";
 import Trade from "./pages/Trade.js";
 import Board from "./pages/Board.js";
 
@@ -14,7 +13,6 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Main />}></Route>
         <Route path="/trade" element={<Trade />}></Route>
         <Route path="/board" element={<Board />}></Route>
       </Routes>

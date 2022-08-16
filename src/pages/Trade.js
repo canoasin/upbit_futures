@@ -1,41 +1,29 @@
-import { AdvancedRealTimeChart } from "react-ts-tradingview-widgets";
-import { useState, useEffect } from "react";
-import axios from "axios";
-import { useQuery } from "@tanstack/react-query";
+import Curprice from "../components/Context.js";
+import { useState } from "react";
+import { useSelector } from "react-redux";
 
 export default function Trade() {
-  let [price, setPrice] = useState("");
-
-  let coinPrice = useQuery(
-    ["coinPrice"],
-    () => {
-      return axios
-        .get("https://api.upbit.com/v1/ticker?markets=KRW-BTC")
-        .then((res) => {
-          return res.data;
-        })
-        .catch((res) => {
-          console.log(res);
-        });
-    } /* ,
-    {
-      refetchInterval: 1000,
-    } */
-  );
-
   return (
     <>
-      <div className="trade-wrap">
-        <AdvancedRealTimeChart
-          symbol="BINANCE:BTCUSDT"
-          theme="dark"
-          timezone="Asia/Seoul"
-        />
-      </div>
-      <div className="trade-contents">
-        {coinPrice.isLoading && "로딩 중.."}
-        {coinPrice.error && "error"}
-        {coinPrice.data && coinPrice.data[0].trade_price}
+      <div className="mainB">
+        <section className="ty01">
+          <article>
+            <span className="titB link">
+              <a className="select">
+                <em>
+                  <img src="https://static.upbit.com/logos/ETH.png"></img>
+                </em>
+                <strong>이더리움</strong>
+                <p>ETH/KRW</p>
+              </a>
+            </span>
+            <div>
+              <span className="marketB">
+                <Curprice />
+              </span>
+            </div>
+          </article>
+        </section>
       </div>
     </>
   );

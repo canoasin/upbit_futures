@@ -5,14 +5,15 @@ function Navbar() {
   return (
     <div className="nav">
       <div className="inner">
-        <div
-          className="nav-logo"
-          onClick={() => {
-            navigate("/");
-          }}
-        >
-          <span>Canoa Finance</span>
-        </div>
+        <h1 className="nav-logo">
+          <a
+            onClick={() => {
+              navigate("/");
+            }}
+          >
+            ㅇㅇ
+          </a>
+        </h1>
         <ul className="nav-items">
           {/* <li className="item">
             <div className="item__name">BTC</div>
@@ -27,12 +28,12 @@ function Navbar() {
           </li> */}
           <li className="item">
             <a
-              className="item__name"
+              className="item__name active"
               onClick={() => {
                 navigate("/trade");
               }}
             >
-              Trade
+              거래소
             </a>
           </li>
           <li className="item">
@@ -42,7 +43,57 @@ function Navbar() {
                 navigate("/board");
               }}
             >
-              Board
+              입출금
+            </a>
+          </li>
+          <li className="item">
+            <a
+              className="item__name"
+              onClick={() => {
+                navigate("/board");
+              }}
+            >
+              투자내역
+            </a>
+          </li>
+          <li className="item">
+            <a
+              className="item__name"
+              onClick={() => {
+                navigate("/board");
+              }}
+            >
+              코인동향
+            </a>
+          </li>
+          <li className="item">
+            <a
+              className="item__name"
+              onClick={() => {
+                navigate("/board");
+              }}
+            >
+              스테이킹
+            </a>
+          </li>
+          <li className="item">
+            <a
+              className="item__name"
+              onClick={() => {
+                navigate("/board");
+              }}
+            >
+              NFT
+            </a>
+          </li>
+          <li className="item">
+            <a
+              className="item__name"
+              onClick={() => {
+                navigate("/board");
+              }}
+            >
+              고객센터
             </a>
           </li>
         </ul>

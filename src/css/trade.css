@@ -1,0 +1,151 @@
+.single-ticker {
+  /* display: flex; */
+  width: 1300px;
+  justify-content: center;
+  margin: 18px auto 48px auto;
+}
+
+#tradingview_widget_wrapper div:nth-child(2) {
+  display: none;
+}
+
+.rise {
+  color: #c84a31;
+}
+
+.fall {
+  color: #1261c4;
+}
+
+
+.mainB {
+  padding-top: 12px;
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+}
+
+.ty01 {
+  width: 990px;
+  float: left;
+}
+
+.mainB section article {
+  background-color: #0d131a;
+  box-shadow: none;
+}
+
+.mainB section article .titB {
+  border-bottom: 1px solid #1e2939;
+}
+
+.mainB section article .titB.link strong,
+.mainB section article .titB.link p {
+  color: #D2D4D6;
+}
+
+.mainB section article .marketB .ty01 span p {
+  color: #565d6a;
+}
+
+.mainB section article .titB {
+  display: block;
+  height: 44px;
+  padding: 0 14px;
+}
+
+.mainB section article .titB.link {
+  position: relative;
+}
+
+.mainB section article .titB.link a.select {
+  display: inline-block;
+  height: 44px;
+  padding-right: 0px;
+}
+
+.mainB section article .titB.link em {
+  float: left;
+  line-height: 44px;
+  padding-right: 10px;
+}
+
+.mainB section article .titB.link em img {
+  vertical-align: middle;
+  max-width: 26px;
+  max-height: 26px;
+}
+
+.mainB section article .titB.link strong {
+  margin-top: 10px;
+  font-size: 21px;
+  font-family: "Roboto","Noto Sans KR","sans-serif",Arial,Helvetica;
+  float: left;
+}
+
+.mainB section article .titB.link p {
+  font-size: 12px;
+  margin: 18px 4px 0;
+  float: left; 
+}
+
+.mainB section article .marketB {
+  position: relative;
+  display: block;
+  padding: 18px 20px 14px;
+  overflow: hidden;
+}
+
+.mainB section article .marketB .ty01 {
+  float: left;
+  width: 320px;
+}
+
+.mainB section article .marketB .ty01 span {
+  display: block;
+}
+
+.mainB section article .marketB .ty01 span.first {
+  margin: -6px 0 2px;
+}
+
+.mainB section article .marketB .ty01 span.first strong {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.mainB section article .marketB .ty01 span em {
+  font-style: normal;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 4px 0 2px;
+}
+
+.mainB section article .marketB .ty01 span p.tit {
+  margin-right: 4px;
+  line-height: 19px;
+  font-size: 12px;
+  letter-spacing: 0;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.mainB section article .marketB .ty01 span strong {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mainB section article .marketB .ty01 strong.upDown {
+  margin-left: 6px;
+  padding-left: 14px;
+}
+
+.mainB section article .marketB .ty01.fall strong.upDown {
+  background: url('https://cdn.upbit.com/upbit-web/images/dark_ico_down.bed5e4d.png') 0 no-repeat;
+}
+
+.mainB section article .marketB .ty01.rise strong.upDown {
+  background: url('https://cdn.upbit.com/upbit-web/images/dark_ico_up.bf2b1dd.png') 0 no-repeat
+}
+
